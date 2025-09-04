@@ -109,7 +109,7 @@
             var dic_class2information = {};
             dic_class2information['최예나'] = '2018년 엠넷에서 주관하는 걸그룹 서바이벌 오디션 프로듀스 48에 참가해 최종 선발되어 걸그룹 IZ*ONE으로 데뷔하여 2021년 4월까지 활동하였으며, 2022년 1월 17일 솔로 가수로 데뷔하였다.';
             dic_class2information['유진'] = '대한민국의 가수. 스타쉽엔터테인먼트 소속 6인조 걸그룹 IVE의 멤버이자 리더.';
-            dic_class2information['김민주'] = '2018년 엠넷이 주관한 걸그룹 서바이벌 오디션 '프로듀스 48'에 참가해 최종 데뷔조에 들었고, 걸그룹 IZ*ONE으로 데뷔해 2021년 4월까지 활동하였다. 활동 종료 후 배우로 전향해 활발히 활동을 이어가고 있다.';
+            dic_class2information['김민주'] = '2018년 엠넷이 주관한 걸그룹 서바이벌 오디션 프로듀스 48에 참가해 최종 데뷔조에 들었고, 걸그룹 IZ*ONE으로 데뷔해 2021년 4월까지 활동하였다. 활동 종료 후 배우로 전향해 활발히 활동을 이어가고 있다.';
             var image = document.getElementById("face-image");
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
